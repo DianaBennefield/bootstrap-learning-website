@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Using Bootstrap</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<body>
+<main class="container">
+
+    <h1> USE USE Shift+Alt+L to reformat the code</h1>
+
+    <div class="row">
+        <div class="col">1</div>
+        <div class="col">2</div>
+    </div>
+
+
+    <h2>cum alegem marimea unei coloane:</h2>
+    <div class="row">
+        <div class="bg-danger col-1">1/12</div>
+    </div>
+    <div class="row">
+        <div class="bg-danger col-2">2/12</div>
+    </div>
+    <div class="row">
+        <div class="bg-danger col-3">3/12</div>
+    </div>
+    <div class="row">
+        <div class="bg-danger col-4">4/12 din latime</div>
+    </div>
+    <div class="row">
+        <div class="bg-danger col-5">5/12 din latime</div>
+    </div>
+    <div class="row">
+        <div class="bg-danger col-6">6/12 din latime</div>
+    </div>
+    <div class="row">
+        <div class="bg-danger col-7">7/12 din latime</div>
+    </div>
+
+    <h2>Cum alegem latimea unei coloane, in functie de marimea "device-ului"</h2>
+
+    <div class="row">
+        TODO: coloana de jos va fi 12/12 pt ecrane < sm     6/12 pentru sm, ,  etc
+        <div class="col-12 col-sm-6 col-md-3 col-lg-2 col-xl-1 bg-primary text-white">Responsive Column</div>
+    </div>
+
+
+    we create a row which contains 4 columns, 2 images (img) and 2 texts (p).
+    when the screen is at least medium in size , they should be placed two on a row.
+    If the screen is smaller, the text should be places below each image,
+        and each element should have the size of the screen
+
+    <div class="row">
+        <div class="col col-md-6 col-12">
+            <img src="https://via.placeholder.com/120/eee/808080?Text=Digital.com" alt="alt">
+        </div>
+        <div class="col col-md-6 col-12">
+            <p> This image is about the text bellow</p>
+        </div>
+        <div class="col col-md-6 col-12">
+            <img src="https://via.placeholder.com/120/eee/808080?Text=Digital.com" alt="alt">
+        </div>
+        <div class="col col-md-6 col-12">
+            <p> This image is about the text bellow</p>
+        </div>
+    </div>
+
+
+    TODO homework
+<!--    <img src="https://via.placeholder.com/120/eee/808080?Text=Digital.com" alt="alt">-->
+
+
+
+
+</main>
+</body>
+</html>
